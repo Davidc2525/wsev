@@ -1,4 +1,4 @@
-module github.com/purehyperbole/wsev
+module github.com/Davidc2525/wsev
 
 go 1.21.1
 
