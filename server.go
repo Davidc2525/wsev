@@ -288,7 +288,7 @@ func acceptWs(conn *Conn, buf *rbuf, rb *bufio.Reader) error {
 			errors.New("invalid Sec-Websocket-Key base64 length"),
 		)
 	}
-
+	/*
 	origin := h.Get("Origin")
 	if origin != "" {
 		o, err := url.Parse(origin)
@@ -308,6 +308,7 @@ func acceptWs(conn *Conn, buf *rbuf, rb *bufio.Reader) error {
 			)
 		}
 	}
+		*/
 
 	// https://datatracker.ietf.org/doc/html/rfc6455#section-4.2.2
 
